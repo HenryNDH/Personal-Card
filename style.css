@@ -1,0 +1,101 @@
+:root{
+    --bg1 : #9b58b6;
+    --bg2 : #3498db;
+    --bg : #D7E1EC;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    background: linear-gradient(var(--bg1), var(--bg2));
+    
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    background-color: black;
+}
+
+.container img.profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    margin: 20px auto;
+    cursor: pointer;
+    position: relative;
+}
+.icon-social img{
+    width: 20px;
+    height: 20px;
+}
+
+.container h2 {
+    color: #ffffff;
+}
+.container p {
+    color: #ffffff;
+    margin: 0 30px 12px ;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 12px;
+}
+.btn-container button{
+    height:  35px;
+    width: 150px;
+    border: none;
+    margin-right: 12px;
+    columns: #333;
+    border-radius: 5px;
+
+}
+
+.btn-container button:hover{
+    background: var(--bg1);
+    
+}
+.icon-social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-social img{
+    padding: 12px;
+    color: var(--bg1);
+}
+.fb:hover{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+.ins:hover{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+
+.git:hover{
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
